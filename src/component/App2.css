@@ -1,0 +1,28 @@
+.news{
+    max-width: 500px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+    background-image:linear-gradient(to bottom right,#c2e59c,#64b3f4);
+    box-shadow: 2px 4px 12px black;
+    zoom: normal;
+   
+
+}
+
+.all_news{
+    margin: 30px auto;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+   
+}
+.news_desc ,.news_con{
+    font-size: 15px;
+}
+.news_p,.author{
+    font-size: 15px;
+    float: right;
+}
